@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+  }
+  
+  .contenedor {
+    max-width: 100vw; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+  }
+  
+  .elemento {
+    width: 100%; 
+    background-color: lightblue; 
+    box-sizing: border-box;
+  }
+  

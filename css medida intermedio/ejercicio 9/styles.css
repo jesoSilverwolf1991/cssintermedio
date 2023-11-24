@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+  }
+  
+  .contenedor {
+    height: 80vh; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+  }
+  
+  .elemento {
+    height: 100%; 
+    background-color: lightblue; 
+    box-sizing: border-box;
+  }
+  

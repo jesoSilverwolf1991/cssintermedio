@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+  }
+  
+  .padre {
+    width: 200px; 
+    padding: 20px; 
+    background-color: #f0f0f0; /
+  }
+  
+  .elemento {
+    width: max(100px, 100%); 
+    background-color: lightblue; 
+    box-sizing: border-box;
+  }
+  

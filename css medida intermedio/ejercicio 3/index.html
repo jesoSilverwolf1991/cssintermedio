@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .padre {
+      font-size: 14px; 
+      position: relative;
+    }
+
+    .hijo {
+      width: calc(2 * 100%); 
+      display: inline-block;
+      background-color: lightblue;
+      box-sizing: border-box;
+    }
+
+   
+    @media (max-width: 16px) {
+      .hijo {
+        width: calc(2 * 100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="padre">
+    <div class="hijo">Contenido del hijo</div>
+  </div>
+</body>
+</html>

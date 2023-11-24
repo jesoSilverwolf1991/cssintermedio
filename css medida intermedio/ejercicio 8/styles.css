@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+  }
+  
+  .padre {
+    font-size: 14px; 
+    position: relative;
+  }
+  
+  .elemento {
+    height: calc(2 * 1em);
+    background-color: lightblue; 
+    box-sizing: border-box;
+  }
+  
+
+  @media (max-width: 16px) {
+    .elemento {
+      height: calc(2 * 1em);
+    }
+  }
+  

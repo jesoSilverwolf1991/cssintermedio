@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+  }
+  
+  .elemento {
+    height: 50vh; 
+    background-color: lightblue; 
+    box-sizing: border-box;
+  }
+  
